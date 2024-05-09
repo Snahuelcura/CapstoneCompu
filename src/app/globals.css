@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+:root {
+  --foreground-color: #000000; /* Negro */
+  --background-start-color: #ffffff; /* Gris */
+  --background-end-color: #e4e0e0; /* Blanco */
+  --primary-color: #169C89; 
+  --secondary-color: #999999;
+  --tertiary-color: #D46480;
+  --input-border-color: #DDDDDD; /* Color del borde del input */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-color: #ffffff; /* Blanco */
+/*    --background-start-color: #000000; /* Negro */
+/*    --background-end-color: #000000; /* Negro */
+/*  }
+}*/
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+body {
+  color: var(--foreground-color);
+  background-color: #ffffff;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h3 {
+  color: var(--secondary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--tertiary-color);
+  color: white;
+}
+
+.input-border {
+  border-color: var(--input-border-color);
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  position: sticky; /* Cambia de fixed a sticky */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #74DCCC !important;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*ih*/
+.hero {
+  position: relative;
+  color: white;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.hero--content {
+  padding: 48px 0;
+}
+
+.bg-img {
+  object-fit: cover;
+  z-index: -5;
+}
+/*ih*/

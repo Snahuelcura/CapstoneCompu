@@ -1,0 +1,94 @@
+
+
+
+
+.table .status-available {
+    background-color: #48c774 !important; /* Verde */
+    color: white !important;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+   
+    width: auto;
+    margin: 5px;
+}
+
+.table .status-occupied {
+    background-color: #f14668 !important; /* Rojo */
+    color: white !important;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+   
+    width: auto;
+    margin: 5px;
+}
+
+.table .status-reserved {
+    background-color: #ffdd57 !important; /* Amarillo */
+    color: black !important;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    
+    margin: 5px;
+    
+}
+.table .cleaning-clean {
+    background-color: #48c774 !important; /* Verde */
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    display: inline-block;
+    margin: 5px;
+}
+
+.table .cleaning-dirty {
+    background-color: #f14668 !important; /* Rojo */
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    display: inline-block;
+    margin: 5px;
+}
+
+.table .cleaning-waiting {
+    background-color: #ffdd57; /* Amarillo */
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    display: inline-block;
+    margin: 5px;
+}
+
+.table .cleaning-in-progress {
+    background-color: #3273dc; /* Azul */
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    display: inline-block;
+    margin: 5px;
+    align-self: center
+}
+
+
+.panel {
+    background-color: white;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.buttons-end{
+    background-color: white;
+}
+.container-1{
+    margin-top: 0px !important;
+    background-color: white;
+}
+.body{
+    background-color: white;
+    margin-top: 0px !important;
+}
