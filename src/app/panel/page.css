@@ -1,0 +1,83 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+
+
+/* Estilos generales */
+.container-1 {
+    margin: 20px auto;
+    max-width: 90%;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+    
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px; /* Ajusta el margen superior de la tabla */
+    margin-bottom: 20px; /* Ajusta el margen inferior de la tabla */
+    border-collapse: collapse; /* Asegura que las celdas estén bien ajustadas */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border-bottom: 1px solid #dddddd; /* Línea sutil para las celdas */
+    padding: 10px 15px; /* Mayor espacio interno */
+    text-align: center;
+    background-color: white;
+}
+
+th {
+    background-color: #f5f5f5; /* Un color de fondo sutil para los encabezados */
+    color: #333; /* Color oscuro para texto para mejorar el contraste */
+    font-weight: bold; /* Texto más grueso para encabezados */
+}
+
+/* Botones y panel */
+.panel {
+    background-color: white; /* Establece el color de fondo a blanco */
+    padding: 20px;
+    border-radius: 8px; /* Opcional: Agrega bordes redondeados para un look más suave */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Opcional: Agrega una sombra sutil para resaltar el panel */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Asegura que el panel ocupe todo el ancho disponible */
+}
+
+.botones {
+    margin-top: 20px;
+    justify-content: center; /* Alineación central de botones en Flexbox */
+    background-color: white;
+}
+
+.botones button {
+    margin-left: 20px;
+    border: none;
+    background-color: #3273dc; /* Color azul de Bulma para botones */
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.botones button:hover {
+    background-color: #276cda; /* Color ligeramente más oscuro al pasar el mouse */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2); /* Sombra más pronunciada al pasar el mouse */
+}
+
+.status-available {
+    background-color: #48c774; /* Verde */
+    color: white;
+  }
+  
+  .status-occupied {
+    background-color: #f14668; /* Rojo */
+    color: white;
+  }
+  
+  .status-reserved {
+    background-color: #ffdd57; /* Amarillo */
+    color: black; /* Asegura que el texto sea legible */
+  }
+  
