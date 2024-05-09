@@ -1,0 +1,15 @@
+# Node modules
+node_modules
+
+# Editor directories
+.vscode/*
+
+# Mac OS files
+.DS_Store
+
+# Local env files
+.env
+
+# Miscellaneus
+diagrama_ER*.png
+*.pdf
